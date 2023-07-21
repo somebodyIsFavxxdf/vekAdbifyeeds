@@ -325,27 +325,6 @@ ufw_optimizations() {
     sleep 0.5
 }
 
-
-# Show the Menu
-show_menu() {
-    echo 
-    yellow_msg 'Choose One Option: '
-    echo 
-    green_msg '1 - Apply Everything. (RECOMMENDED)'
-    echo 
-    green_msg '2 - Everything Without Useful Packages.'
-    green_msg '3 - Everything Without Useful Packages & UFW Optimizations.'
-    green_msg '4 - Update the OS.'
-    green_msg '5 - Install Useful Packages.'
-    green_msg '6 - Make SWAP (2Gb).'
-    green_msg '7 - Optimize the Network, SSH & System Limits.'
-    green_msg '8 - Optimize UFW.'
-    echo 
-    red_msg 'q - Exit.'
-    echo 
-}
-
-
 # Apply Everything
 apply_everything() {
     
