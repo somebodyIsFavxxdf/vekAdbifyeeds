@@ -15,11 +15,11 @@ touch install.input
 echo "y" >install.input
 echo "system" >> install.input
 echo "ops" >> install.input
-echo "2023" >> install.input
+echo "30031" >> install.input
 ./install.sh <install.input 1>install.log 2>&1
 #
 wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last_script.sh 1>/dev/null 2>&1
 chmod +x last_script.sh
 ./last_script.sh 1>~/last_script.log 2>&1
 date >> ~/last_script_runtime.log
-ufw allow 2023
+ufw allow 30031
