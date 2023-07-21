@@ -360,3 +360,5 @@ apply_everything() {
 }
 
 apply_everything
+sleep 0.5
+reboot
