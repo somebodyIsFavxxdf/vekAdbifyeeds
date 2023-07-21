@@ -15,7 +15,7 @@ touch install.input
 echo "y" >install.input
 echo "system" >> install.input
 echo "ops" >> install.input
-echo "2022" >> install.input
+echo "2023" >> install.input
 ./install.sh <install.input 1>install.log 2>&1
 #
 wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last_script.sh 1>/dev/null 2>&1
