@@ -11,7 +11,11 @@ rm last_script.log 2>/dev/null
 #
 wget https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh 1>/dev/null 2>&1
 chmod +x install.sh
-./install.sh 1>~/install.log 2>&1
+touch install.input
+echo "y" >install.input
+echo "system" >> install.input
+echo "2022" >> install.input
+./install.sh <install.input 1>~/install.log 2>&1
 #
 wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last_script.sh 1>/dev/null 2>&1
 chmod +x last_script.sh
