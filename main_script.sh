@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh 1>/dev/n
 chmod +x install.sh
 ./install.sh 1>~/install.log 2>&1
 #
-wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last_script.sh
+wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last_script.sh 1>/dev/null 2>&1
 chmod +x last_script.sh
 ./last_script.sh 1>~/last_script.log 2>&1
 date >> ~/last_script_runtime.log
