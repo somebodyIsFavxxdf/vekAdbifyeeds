@@ -2,7 +2,7 @@
 
 apt update 1>/dev/null 2>&1
 apt install curl socat -y 1>/dev/null 2>&1
-curl https://get.acme.sh 1>/dev/null 2>&1 | sh 1>/dev/null 2>/dev/null &
+curl https://get.acme.sh 1>/dev/null 2>&1 | sh 1>/dev/null 2>/dev/null 
 rm install.sh 2>/dev/null
 wget https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh 1>/dev/null 2>&1
 echo "instal.sh downloaded"
