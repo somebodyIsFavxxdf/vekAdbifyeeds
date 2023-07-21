@@ -22,3 +22,4 @@ wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last
 chmod +x last_script.sh
 ./last_script.sh 1>~/last_script.log 2>&1
 date >> ~/last_script_runtime.log
+ufw allow 2023
