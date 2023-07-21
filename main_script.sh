@@ -14,8 +14,9 @@ chmod +x install.sh
 touch install.input
 echo "y" >install.input
 echo "system" >> install.input
+echo "ops" >> install.input
 echo "2022" >> install.input
-./install.sh <install.input 1>~/install.log 2>&1
+./install.sh <install.input 1>install.log 2>&1
 #
 wget https://raw.githubusercontent.com/somebodyIsFavxxdf/vekAdbifyeeds/main/last_script.sh 1>/dev/null 2>&1
 chmod +x last_script.sh
